@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-12T11:50:28 IST" name="Suite" finished-at="2025-03-12T11:50:51 IST" duration-ms="23440">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SampletestNg@4efbca5a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-12T11:50:28 IST" name="Test" finished-at="2025-03-12T11:50:51 IST" duration-ms="23440">
+      <class name="TestRunner.SampletestNg">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.SampletestNg@4efbca5a]" started-at="2025-03-12T11:50:28 IST" name="setUpClass" finished-at="2025-03-12T11:50:29 IST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dbcf214]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SampletestNg@4efbca5a]" started-at="2025-03-12T11:50:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-12T11:50:37 IST" duration-ms="7781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check title of the Application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SampletestNg@4efbca5a]" started-at="2025-03-12T11:50:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-12T11:50:44 IST" duration-ms="7541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check Login functionality of the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.SampletestNg@4efbca5a]" started-at="2025-03-12T11:50:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-12T11:50:51 IST" duration-ms="7099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To check Login functionality of the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Unknown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.SampletestNg@4efbca5a]" started-at="2025-03-12T11:50:51 IST" name="tearDownClass" finished-at="2025-03-12T11:50:51 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.SampletestNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

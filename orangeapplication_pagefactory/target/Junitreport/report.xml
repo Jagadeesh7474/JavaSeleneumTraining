@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.197" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-08T04:40:04.521187200Z">
+<testcase classname="" name="To check title of the Application" time="6.312">
+<system-out><![CDATA[
+Given User opens the Browser................................................passed
+And User navigates to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" the webpage.passed
+Then User verifies the title of web page....................................passed
+And User closes the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="To check Login functionality of the application - #1.1" time="8.809">
+<system-out><![CDATA[
+Given User opens the Browser................................................passed
+And User navigates to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" the webpage.passed
+When User Enters 'Admin' username...........................................passed
+And User Enters 'admin123' password.........................................passed
+And User Clicks login button................................................passed
+Then User checks the functionality of login.................................passed
+And User closes the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="To check Login functionality of the application - #1.2" time="8.7">
+<system-out><![CDATA[
+Given User opens the Browser................................................passed
+And User navigates to "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" the webpage.passed
+When User Enters 'Admin' username...........................................passed
+And User Enters 'admin123' password.........................................passed
+And User Clicks login button................................................passed
+Then User checks the functionality of login.................................passed
+And User closes the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
